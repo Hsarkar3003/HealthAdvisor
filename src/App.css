@@ -1,0 +1,45 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: Roboto;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.my-table {
+    width: 100%; /* Adjust width as needed */
+    border-collapse: collapse; /* Ensures borders don't overlap */
+  }
+  .my-table thead {
+    background-color: #ddd; /* Light gray header background */
+    font-weight: bold; /* Bold text for headers */
+  }
+  
+  .my-table th,
+  .my-table td {
+    padding: 10px; /* Padding for cells */
+    border: 1px solid #ddd; /* Cell borders */
+    text-align: left; /* Left-align content by default */
+  }
+/* Example for highlighting a specific column */
+.my-table td:nth-child(2) { /* Second column (zero-based indexing) */
+    background-color: #f5f5f5; /* Light gray background */
+  }
+      /* app.css */
+ .nav2{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  text-decoration: none;
+  box-shadow: 10px 10px 10px rgb(117, 117, 117);
+  background: #ffffff;
+ }     
+.ul{
+  width: 100%;
+  background: #000;
+ 
+}
+/* Jarvis */
+
+  

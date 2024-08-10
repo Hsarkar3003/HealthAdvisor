@@ -1,0 +1,6 @@
+body{
+    /* background-color: rgb(124, 174, 218); */
+}
+body::-webkit-scrollbar{
+    display: none;
+}

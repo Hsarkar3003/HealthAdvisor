@@ -1,0 +1,30 @@
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container1 {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1 0 300px;
+    padding: 0 15px;
+    
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  
+  
